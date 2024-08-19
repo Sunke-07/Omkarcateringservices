@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    background-color: #132E32;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    /* text-shadow: 2px 2px 5px rgb(206, 182, 109); */
+
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-left: 250px; */
+    /* border: 2px solid white; */
+    /* border-radius: 2px; */
+}
+.nav :hover{
+    text-shadow: 2px 2px 5px rgb(228, 178, 72);
+}
+
+.contact{
+    position: fixed;
+    right: 0px;
+    top: 25px;
+    /* bottom: 0px; */
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.contact :hover{
+    transform: scale(1.1);
+}
+
+/* .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.banner{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 0px;
+    padding-left: 0px;
+/* padding-top: px; */
+border: 2px solid white;
+border-radius: 2px;
+height: 60px;
+
+}
+
+.logo{
+    /* padding-left: 200px;
+    padding-top: 25px;
+    padding-right: 0px; */
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    border: 2px solid white;
+    border-radius: 2px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.logo :hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/*address*/
+.address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-top: 2px solid black;
+    /* margin-bottom: 0px; */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color:#F7FFDD;
+    text-shadow: 2px 2px 5px rgb(43, 103, 177);
+
+}
+
+.address :hover{
+    transform: scale(1.1);
+}
